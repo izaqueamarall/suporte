@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Merriweather Sans", sans-serif;
+}
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+.form-suporte {
+  width: 70%;
+}
+form {
+  width: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.input-area {
+  width: auto;
+  margin-top: 10px;
+}
+.salvar {
+  width: 80px;
+}
+.estado-cidade {
+  display: flex;
+  width: 100%;
+}
+#estado {
+  margin-right: 30px;
+}
+.cidade {
+  width: 100%;
+}
+.data-suporte {
+  display: flex;
+  width: 100%;
+}
+.input-inicio {
+  display: flex;
+  flex-direction: column;
+}
+.input-fim {
+    display: flex;
+    flex-direction: column;
+  }
+
+.status-suporte {
+  display: flex;
+}
+#status {
+  margin-right: 130px;
+}
+.button-salvar {
+  margin-top: 24px;
+  width: 100%;
+}
+.btn {
+  float: right;
+}
+
+@media only screen and (max-width: 500px) {
+  .data-suporte {
+    flex-direction: column;
+    width: 100%;
+  }
+}
